@@ -41,6 +41,8 @@ venv/
 .localstack/
 localstack/volume/
 localstack_tmp/
+**/**/.terraform*
+**/**/terraform*
 
 # ────────────────
 # VSCode / IDEs

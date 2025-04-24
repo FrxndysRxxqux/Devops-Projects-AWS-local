@@ -34,15 +34,25 @@ build/
 env/
 venv/
 
-# ─────────
+# ------------------
+# Terraform / OpenTofu
+# ------------------
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfvars
+override.tf
+crash.log
+
 # ────────────────
 # LocalStack
 # ────────────────
 .localstack/
 localstack/volume/
 localstack_tmp/
-**/**/.terraform*
-**/**/terraform*
+**/**/volume/
+labs/localstack/localstack-setup/volume/cache/
 
 # ────────────────
 # VSCode / IDEs

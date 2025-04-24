@@ -4,34 +4,13 @@ Bienvenido a mi repositorio **DevOps Labs**, donde documento mis prácticas, lab
 
 ## 📂 Estructura del repositorio
 
-- **docs/**  
-  Guías, plantillas y normas de estilo para contribuir y documentar nuevos laboratorios.
-
-- **labs/**  
-  Laboratorios “hands-on” organizados por tecnología:
-  - `k8s/` – Kubernetes
-  - `localstack/` – Emulación AWS con Localstack (Terraform y OpenTofu)
-  - `oci/` – Oracle Cloud Infrastructure
-
-- **aws/**  
-  Scripts reales para AWS (DynamoDB, EC2, etc.).
-
-- **oci/**  
-  Scripts reales para OCI.
-- **localstack-setup/**  
-  Archivo `compose.yml` y configuración general de Localstack.
-
-- **python-labs/**  
-  (Por crear) Laboratorios de Python para automatización, análisis de datos, etc.
-
-- **technical-test/** _(submódulo)_  
-  Pruebas técnicas para procesos de selección, mantenidas como sub-módulo Git.
-
-## 🚀 Cómo empezar
-
-1. Clona el repositorio y submódulos:
-   ```bash
-   git clone --recurse-submodules https://github.com/AgnerVillaFabrega/agnervillafabrega-devops.git
-2. Instala dependencias globales (por ejemplo Docker, AWS CLI, Terraform).
-
-3. Revisa la carpeta docs/LAB_TEMPLATE.md para guiarte al crear nuevos labs.
+```plaintext
+agnervillafabrega-devops/
+├── README.md            ← Visión general del repo
+├── aws/                 ← Scripts y utilidades para AWS “reales”  
+├── docs/                ← Guías, plantillas y normas de contribución/documentación
+│   └── PR-README.md     ← Plantilla e instrucciones para Pull Requests y documentación de
+├── labs/                ← Laboratorios prácticos organizados por tecnología  
+├── oci/                 ← Scripts y herramientas para Oracle Cloud Infrastructure  
+└── technical-tests/     ← Submódulos con pruebas técnicas usadas en procesos de selección  
+```
